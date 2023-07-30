@@ -53,5 +53,5 @@ st.markdown("""
 ---
 Mede mogelijk gemaakt door Jesse Kuipers | jesse.kuipers@coolblue.nl | https://www.linkedin.com/in/jessekuipers/
 
-Version: 1.0.0
+Version: 2.0.0
 """)
