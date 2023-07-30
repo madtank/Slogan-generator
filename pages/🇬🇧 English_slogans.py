@@ -4,7 +4,6 @@ import streamlit as st
 import time
 import re
 
-from apikey import apikey
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts.chat import (
@@ -15,7 +14,7 @@ from langchain.prompts.chat import (
 
 from langchain.chains import LLMChain
 
-os.environ['OPENAI_API_KEY'] = apikey
+apikey = os.getenv('OPENAI_API_KEY')
 
 st.sidebar.success('Select a page above!')
 
